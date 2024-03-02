@@ -17,6 +17,7 @@ Before running the application, ensure you have the following installed:
         git clone https://github.com/iambpawan/MongoDB-with-express.git
 ```
 2. Database Connection
+
 The application connects to a MongoDB database named "whatsapp" running on mongodb://127.0.0.1:27017.
 
 3. Routes
@@ -28,7 +29,9 @@ The application connects to a MongoDB database named "whatsapp" running on mongo
 - DELETE /chats/:id: Deletes a chat from the database based on its ID.
 
 4. Views
+
 The application uses EJS (Embedded JavaScript) for rendering views. Views include:
+
 - index.ejs: Lists all chats.
 - newChat.ejs: Form for creating a new chat.
 - edit.ejs: Form for editing a chat.
